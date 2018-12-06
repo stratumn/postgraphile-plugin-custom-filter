@@ -1,5 +1,5 @@
 {
-  "name": "postgraphile-plugin-custom-filter",
+  "name": "@stratumn/postgraphile-plugin-custom-filter",
   "version": "1.0.0",
   "description": "Customized filter on Connections in postgraphile",
   "main": "index.js",
@@ -13,11 +13,11 @@
     "url": "https://github.com/hansololai/postgraphile-plugin-custom-filter/issues"
   },
   "dependencies": {
-    "graphile-build-pg": "^4.0.0-beta.6",
+    "graphile-build-pg": "^4.1.0-rc.2",
     "pluralize": "^7.0.0"
   },
   "peerDependencies": {
-    "postgraphile": "^4.0.0-beta.8"
+    "postgraphile": "^v4.1.0-rc.3"
   },
   "devDependencies": {
     "eslint": "^4.19.1",

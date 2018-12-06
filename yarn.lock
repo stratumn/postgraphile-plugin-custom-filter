@@ -6,9 +6,10 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-1.2.0.tgz#81a6731ce4df43619e5c8c945383b3e62a89ea86"
 
-"@types/graphql@^0.13.4":
-  version "0.13.4"
-  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.13.4.tgz#55ae9c29f0fd6b85ee536f5c72b4769d5c5e06b1"
+"@types/graphql@^14.0.3":
+  version "14.0.3"
+  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-14.0.3.tgz#389e2e5b83ecdb376d9f98fae2094297bc112c1c"
+  integrity sha512-TcFkpEjcQK7w8OcrQcd7iIBPjU0rdyi3ldj6d0iJ4PPSzbWqPBvXj9KSwO14hTOX2dm9RoiH7VuxksJLNYdXUQ==
 
 "@types/node@*":
   version "10.9.4"
@@ -986,40 +987,46 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-graphile-build-pg@^4.0.0-beta.6:
-  version "4.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/graphile-build-pg/-/graphile-build-pg-4.0.0-rc.10.tgz#111f1ecdab3b6d0076c265605360e00699373a98"
+graphile-build-pg@^4.1.0-rc.2:
+  version "4.1.0-rc.4"
+  resolved "https://registry.yarnpkg.com/graphile-build-pg/-/graphile-build-pg-4.1.0-rc.4.tgz#f53c38482ad4db0598fbbb2eabb196beb8b84401"
+  integrity sha512-OhcBMiAfU/oppINC9jFRXtRE+okFUBCIjRwHwIOlB2jVlEUc+THvU2ERpMeRcTduGyH2rf7XS0g/bP1FULCuxg==
   dependencies:
     chalk "^2.1.0"
     debug ">=2 <3"
-    graphile-build "4.0.0-rc.10"
-    graphql-iso-date "^3.2.0"
+    graphile-build "4.1.0-rc.4"
+    graphql-iso-date "^3.6.0"
     jsonwebtoken "^8.1.1"
     lodash ">=4 <5"
     lru-cache ">=4 <5"
     pg-sql2 "2.2.1"
-    postgres-interval "1.1.1"
+    postgres-interval "^1.1.1"
 
-graphile-build@4.0.0-rc.10:
-  version "4.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/graphile-build/-/graphile-build-4.0.0-rc.10.tgz#9ad8d6fe8f834eca260350a333929069a01f74ef"
+graphile-build@4.1.0-rc.4:
+  version "4.1.0-rc.4"
+  resolved "https://registry.yarnpkg.com/graphile-build/-/graphile-build-4.1.0-rc.4.tgz#20cae57cf67185e3732faca15137886a865272c0"
+  integrity sha512-lQ5uziuqWGQTef3GXuFai/opBCJBgQIi9uV9DN+7Y+D0ybw3e5cf6POpoDnyRZ8r59kd9kjs7mMlq6irHikdPA==
   dependencies:
-    "@types/graphql" "^0.13.4"
+    "@types/graphql" "^14.0.3"
+    chalk "^2.1.0"
     debug ">=2 <3"
-    graphql-parse-resolve-info "4.0.0-rc.8"
+    graphql-parse-resolve-info "4.1.0-rc.4"
     lodash ">=4 <5"
     lru-cache ">=4 <5"
-    pluralize "7.0.0"
+    pluralize "^7.0.0"
+    semver "^5.6.0"
 
-graphql-iso-date@^3.2.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/graphql-iso-date/-/graphql-iso-date-3.5.0.tgz#55a1be0efa8d28c1453afd2eb5ce1d052189a513"
+graphql-iso-date@^3.6.0:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/graphql-iso-date/-/graphql-iso-date-3.6.1.tgz#bd2d0dc886e0f954cbbbc496bbf1d480b57ffa96"
+  integrity sha512-AwFGIuYMJQXOEAgRlJlFL4H1ncFM8n8XmoVDTNypNOZyQ8LFDG2ppMFlsS862BSTCDcSUfHp8PD3/uJhv7t59Q==
 
-graphql-parse-resolve-info@4.0.0-rc.8:
-  version "4.0.0-rc.8"
-  resolved "https://registry.yarnpkg.com/graphql-parse-resolve-info/-/graphql-parse-resolve-info-4.0.0-rc.8.tgz#32ef7981411c72e7292fc765222127710cc088dc"
+graphql-parse-resolve-info@4.1.0-rc.4:
+  version "4.1.0-rc.4"
+  resolved "https://registry.yarnpkg.com/graphql-parse-resolve-info/-/graphql-parse-resolve-info-4.1.0-rc.4.tgz#a8ba4b18a27615c82acea59a98bb43ab8b580ba0"
+  integrity sha512-826dMuKk5Lxsu5qzvIawf+St7AJ2ouNNsuzr5HL0Bs/IE6/fGLz+jDT8QHHtXE88BLSzk6bU7uklwmI2+5CQaA==
   dependencies:
-    "@types/graphql" "^0.13.4"
+    "@types/graphql" "^14.0.3"
     debug ">=2 <3"
 
 has-ansi@^2.0.0:
@@ -1896,7 +1903,7 @@ pkg-dir@^1.0.0:
   dependencies:
     find-up "^1.0.0"
 
-pluralize@7.0.0, pluralize@^7.0.0:
+pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
 
@@ -1904,9 +1911,10 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
 
-postgres-interval@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/postgres-interval/-/postgres-interval-1.1.1.tgz#acdb0f897b4b1c6e496d9d4e0a853e1c428f06f0"
+postgres-interval@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/postgres-interval/-/postgres-interval-1.1.2.tgz#bf71ff902635f21cb241a013fc421d81d1db15a9"
+  integrity sha512-fC3xNHeTskCxL1dC8KOtxXt7YeFmlbTYtn7ul8MkVERuTmf7pI4DrkAxcw3kh1fQ9uz4wQmd03a1mRiXUZChfQ==
   dependencies:
     xtend "^4.0.0"
 
@@ -2111,6 +2119,11 @@ semver-diff@^2.0.0:
 "semver@2 || 3 || 4 || 5", semver@^5.0.3, semver@^5.1.0, semver@^5.3.0, semver@^5.5.0:
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.1.tgz#7dfdd8814bdb7cabc7be0fb1d734cfb66c940477"
+
+semver@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
+  integrity sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
 
 set-blocking@~2.0.0:
   version "2.0.0"
